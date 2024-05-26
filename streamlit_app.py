@@ -9,7 +9,7 @@ def load_data():
     return df
 
 def main():
-    st.title("Iris-Datensatz")
+    st.title("Iris Datensatz")
     st.write("Eine einfache Streamlit app um den Iris-Datensatz zu untersuchen.")
 
     df = load_data()
